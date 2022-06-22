@@ -52,14 +52,15 @@ function squareNumbers() {
 
 console.log (squareNumbers())
    
-   function countingBackwards() {
-           
-  let meuRetorno = [];
-  for (let counter = 20; counter >= 1; counter = counter-1) {
-      meuRetorno.push(counter)
-  }
-  return meuRetorno;
-   }
+function squareNumbers() {
+    
+    let meuRetorno = [];
+    for(let counter = 0; counter * counter <=100; counter = counter + 1 ) {
+        meuRetorno.push(counter*counter)
+    }
+    return meuRetorno; 
+       
+}
    
 console.log(countingBackwards())
    
@@ -100,12 +101,12 @@ console.log(evenNumbersBackwards())
    function squareNumbersBackwards() {
       
     let meuRetorno = [];
-    for(let counter = 0; counter < 1; counter = counter + 1 ) {
-        meuRetorno.push(100, 81, 64, 49, 36, 25, 16, 9, 4, 1)
+    for(let counter=10 ; counter*counter >= 1; counter = counter - 1 ){
+        meuRetorno.push (counter*counter)
     }
     return meuRetorno; 
        
 }
    
-console.log(squareNumbersBackwards())
+  console.log(squareNumbersBackwards())
    
