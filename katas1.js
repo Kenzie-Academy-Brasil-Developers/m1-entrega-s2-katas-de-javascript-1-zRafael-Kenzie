@@ -41,10 +41,10 @@ function multiplesOfFive() {
 console.log(multiplesOfFive())
 
 function squareNumbers() {
-    
+      
     let meuRetorno = [];
-    for(let counter = 0; counter < 1; counter = counter + 1 ) {
-        meuRetorno.push(1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+    for(let counter=0 ; counter*counter <= 100; counter = counter +1 ){
+        meuRetorno.push (counter*counter)
     }
     return meuRetorno; 
        
@@ -52,11 +52,11 @@ function squareNumbers() {
 
 console.log (squareNumbers())
    
-function squareNumbers() {
+function countingBackwards() {
     
     let meuRetorno = [];
-    for(let counter = 0; counter * counter <=100; counter = counter + 1 ) {
-        meuRetorno.push(counter*counter)
+    for(let counter = 20; counter >=0; counter = counter -1 ) {
+        meuRetorno.push(counter)
     }
     return meuRetorno; 
        
